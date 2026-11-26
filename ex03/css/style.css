@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(180deg, #7ec8e3, #0a5c8a);
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.bai-viet {
+  background: rgba(255, 255, 255, 0.95);
+  width: 820px;
+  max-width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 28px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+h1 {
+  color: #0b3d5c;
+  text-align: center;
+  margin-top: 0;
+}
+
+.sapo {
+  background: #0b3d5c;
+  color: #FFFAFA;
+  font-style: italic;
+  padding: 14px 18px;
+  border-radius: 6px;
+}
+
+.than-bai {
+  color: #333;
+  line-height: 1.6;
+}
+
+.than-bai::first-letter {
+  color: #0b3d5c;
+  font-size: 3rem;
+  float: left;
+  line-height: 0.85;
+  padding: 0.1rem 0.4rem 0 0;
+}
+
+.anh-noi {
+  width: 280px;
+  max-width: 100%;
+  border: 3px solid rgba(255, 255, 255, 0.85);
+  height: auto;
+  margin: 0 0 14px 18px;
+  float: right;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
